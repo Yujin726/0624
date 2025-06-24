@@ -48,6 +48,7 @@
 
 ## Colab 기초  
 (여기에 Colab 내용 작성)
+![image](https://github.com/user-attachments/assets/62bc4939-c633-4a35-9832-021679eaeb7e)
 
 ## 2. About Python3
 - [Python basic](./docs/python3.md)
