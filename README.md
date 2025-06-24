@@ -159,15 +159,18 @@ for i in range(3):
 - 상단 메뉴에서 **런타임** → **런타임 유형 변경** 클릭  
 (예: T4 GPU)
 ![image](https://github.com/user-attachments/assets/788b1054-cdf0-48d3-b858-db3cb8870274)
-![image](https://github.com/user-attachments/assets/62bc4939-c633-4a35-9832-021679eaeb7e)
+![image](https://github.com/user-attachments/assets/4b558878-188e-4cd3-9906-ad2de004bc27)
+![image](https://github.com/user-attachments/assets/6ffa42bd-2a70-43c5-8782-195837d008d1)
 
 ### 3. ✅ GitHub와 연동하기
 
-- 상단 메뉴에서 파일 → GitHub에서 열기 선택
+- 상단 메뉴에서 파일
+![image](https://github.com/user-attachments/assets/a627a8d2-24b2-4e24-93de-f1c5aa8ca52a)
+- GitHub에 사본 저장 클릭
+![image](https://github.com/user-attachments/assets/bcf1070f-9e00-4e31-9f75-3b5ef1556d63)
+- GitHub로 복사 → 확인
+![image](https://github.com/user-attachments/assets/fd68cf1f-5b52-420b-b676-5dd9a9740540)
 
-원하는 저장소 URL 또는 사용자명 입력 후 노트북 선택
-
-노트북 수정 후 파일 → GitHub에 사본 저장으로 저장 가능
 ## 2. About Python3
 - [Python basic](./docs/python3.md)
 
