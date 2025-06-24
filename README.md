@@ -103,7 +103,7 @@
 
 `![이미지설명](이미지주소)` 형태로 작성
 
-예시) ![고양이](https://placekitten.com/200/200)
+예시) ![고양이]([https://placekitten.com/200/200](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAxMTBfODAg%2FMDAxNzM2NDk1Mjk5Mjcz.bDZ6N_18yXDMglefxe1JePFIscsy14JhF7uibXBJ4-0g.dTSTJqfluamoNkshNYo94CIuJXyF57U357a_Du0fa3kg.JPEG%2F4.jpg&type=sc960_832)
 
 ---
 
@@ -119,7 +119,7 @@
 ```python
 for i in range(3):
     print("Hello, Colab!")
-
+```
 ---
 
 ### 7. ✅ 인용문 만들기
