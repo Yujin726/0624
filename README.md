@@ -178,7 +178,7 @@ for i in range(3):
 - **텍스트 셀**: 마크다운 문법을 이용해 설명, 제목 등을 작성하는 공간  
 
 예시)  
-![image](https://github.com/user-attachments/assets/acdce076-74bd-4ccf-8c8b-265aab05280e)
+![image](https://github.com/user-attachments/assets/599c1017-e9be-4829-a8e2-715c77a3062a)
 
 ## 2. About Python3
 - [Python basic](./docs/python3.md)
