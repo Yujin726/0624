@@ -148,19 +148,26 @@ for i in range(3):
 
 ## Colab 기초  
 ### 1. ✅ Colab 노트북 제목 설정하기
-
 - 노트북 상단 왼쪽에 있는 제목을 클릭 -> 원하는 이름으로 변경 가능
 - 작업 내용을 구분 가능
+  
 예시)
 ![image](https://github.com/user-attachments/assets/80bd7eb0-cf22-4cd1-b00e-a875407cbb80)
+
 ### 2. ✅ 런타임 환경 GPU(T4) 설정 방법
 
 - 상단 메뉴에서 **런타임** → **런타임 유형 변경** 클릭  
 (예: T4 GPU)
 ![image](https://github.com/user-attachments/assets/788b1054-cdf0-48d3-b858-db3cb8870274)
-
 ![image](https://github.com/user-attachments/assets/62bc4939-c633-4a35-9832-021679eaeb7e)
 
+### 3. ✅ GitHub와 연동하기
+
+- 상단 메뉴에서 파일 → GitHub에서 열기 선택
+
+원하는 저장소 URL 또는 사용자명 입력 후 노트북 선택
+
+노트북 수정 후 파일 → GitHub에 사본 저장으로 저장 가능
 ## 2. About Python3
 - [Python basic](./docs/python3.md)
 
