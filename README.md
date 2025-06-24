@@ -171,6 +171,15 @@ for i in range(3):
 - GitHub로 복사 → 확인
 - ![image](https://github.com/user-attachments/assets/fd68cf1f-5b52-420b-b676-5dd9a9740540)
 
+### 4. ✅ 코드 셀과 텍스트 셀 추가하기
+
+- 상단 메뉴 아래에 있는 **`+ 코드`**, **`+ 텍스트`** 버튼을 클릭하여 셀을 추가할 수 있어요.  
+- **코드 셀**: Python 코드를 입력하고 실행할 수 있는 공간  
+- **텍스트 셀**: 마크다운 문법을 이용해 설명, 제목 등을 작성하는 공간  
+
+예시)  
+![image](https://github.com/user-attachments/assets/acdce076-74bd-4ccf-8c8b-265aab05280e)
+
 ## 2. About Python3
 - [Python basic](./docs/python3.md)
 
