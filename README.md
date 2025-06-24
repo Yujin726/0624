@@ -44,7 +44,7 @@
 
 ## Markdown 문법
 
-### ✅ 제목(Heading) 작성하기
+### 1. ✅ 제목(Heading) 작성하기
 `#` 기호를 사용해 제목의 크기를 조절할 수 있어요.
 
 - `#` 1개: 가장 큰 제목 (h1)
@@ -147,7 +147,18 @@ for i in range(3):
 예시:
 
 ## Colab 기초  
-(여기에 Colab 내용 작성)
+### 1. ✅ Colab 노트북 제목 설정하기
+
+- 노트북 상단 왼쪽에 있는 제목을 클릭 -> 원하는 이름으로 변경 가능
+- 작업 내용을 구분 가능
+예시)
+![image](https://github.com/user-attachments/assets/80bd7eb0-cf22-4cd1-b00e-a875407cbb80)
+### 2. ✅ 런타임 환경 GPU(T4) 설정 방법
+
+- 상단 메뉴에서 **런타임** → **런타임 유형 변경** 클릭  
+(예: T4 GPU)
+![image](https://github.com/user-attachments/assets/788b1054-cdf0-48d3-b858-db3cb8870274)
+
 ![image](https://github.com/user-attachments/assets/62bc4939-c633-4a35-9832-021679eaeb7e)
 
 ## 2. About Python3
