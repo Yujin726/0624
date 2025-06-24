@@ -165,8 +165,13 @@ for i in range(3):
 ### 3. ✅ GitHub와 연동하기
 
 - 상단 메뉴에서 파일
+![파일](https://github.com/user-attachments/assets/09f14972-cd3c-4227-81a7-76f6653d2092)
+
 ![image](https://github.com/user-attachments/assets/a627a8d2-24b2-4e24-93de-f1c5aa8ca52a)
+
+
 - GitHub에 사본 저장 클릭
+
 ![image](https://github.com/user-attachments/assets/bcf1070f-9e00-4e31-9f75-3b5ef1556d63)
 - GitHub로 복사 → 확인
 ![image](https://github.com/user-attachments/assets/fd68cf1f-5b52-420b-b676-5dd9a9740540)
