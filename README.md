@@ -158,9 +158,9 @@ for i in range(3):
 
 - 상단 메뉴에서 **런타임** → **런타임 유형 변경** 클릭  
 (예: T4 GPU)
-![image](https://github.com/user-attachments/assets/788b1054-cdf0-48d3-b858-db3cb8870274)
-![image](https://github.com/user-attachments/assets/4b558878-188e-4cd3-9906-ad2de004bc27)
-![image](https://github.com/user-attachments/assets/6ffa42bd-2a70-43c5-8782-195837d008d1)
+- ![image](https://github.com/user-attachments/assets/788b1054-cdf0-48d3-b858-db3cb8870274)
+- ![image](https://github.com/user-attachments/assets/4b558878-188e-4cd3-9906-ad2de004bc27)
+- ![image](https://github.com/user-attachments/assets/6ffa42bd-2a70-43c5-8782-195837d008d1)
 
 ### 3. ✅ GitHub와 연동하기
 
