@@ -101,9 +101,17 @@
 
 ### 5. ✅ 이미지 삽입
 
-`![이미지설명](이미지주소)` 형태로 작성
+`![이미지설명](이미지주소)` 형태로 작성해요.
 
-예시) ![고양이]([https://placekitten.com/200/200](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAxMTBfODAg%2FMDAxNzM2NDk1Mjk5Mjcz.bDZ6N_18yXDMglefxe1JePFIscsy14JhF7uibXBJ4-0g.dTSTJqfluamoNkshNYo94CIuJXyF57U357a_Du0fa3kg.JPEG%2F4.jpg&type=sc960_832)
+- **인터넷에 있는 이미지 주소(URL)** 를 복사해서 붙여넣기
+- **GitHub에 직접 이미지 업로드 후 링크로 연결**
+- **드래그 앤 드롭 또는 복사-붙여넣기**도 지원됨 (GitHub 에디터에서)
+
+예시) 
+이미지 주소 복사 붙여넣기 : ![고양이]([https://placekitten.com/200/200](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAxMTBfODAg%2FMDAxNzM2NDk1Mjk5Mjcz.bDZ6N_18yXDMglefxe1JePFIscsy14JhF7uibXBJ4-0g.dTSTJqfluamoNkshNYo94CIuJXyF57U357a_Du0fa3kg.JPEG%2F4.jpg&type=sc960_832)
+
+드래그 앤 드롭 또는 복사-붙여넣기
+![image](https://github.com/user-attachments/assets/2e325e26-aa05-47ae-bf0b-a29ce40a2a42)
 
 ---
 
