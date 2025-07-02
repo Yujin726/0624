@@ -103,7 +103,6 @@ print(a)  # 출력: [1 2 3]
 - IMU(관성 측정 장치)
 
 이 센서들은 모두 **숫자 배열 형태의 데이터**를 생성함. NumPy는 이러한 데이터를 빠르게 계산하고 분석하는 데 사용됨.
-
 ```import numpy as np
 
 lidar_data = np.array([12.3, 8.7, 5.1, 20.0])
@@ -140,7 +139,6 @@ TensorFlow, PyTorch에서도 내부적으로 NumPy와 유사한 연산 환경 �
 ### ✅ (5) 실시간 판단 로직
 차선 이탈, 전방 차량 거리 비교 등 실시간 조건 판단에 배열 연산 필수
 NumPy는 빠른 조건 비교, 필터링, 브로드캐스팅 연산 제공
-
 ```distances = np.array([15, 9, 30])  # 앞차와 거리
 warnings = distances < 10  # 위험 거리만 True
 ```
