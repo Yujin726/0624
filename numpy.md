@@ -32,9 +32,6 @@ NumPy는 Numerical Python의 줄임말입니다.
 ✅ (2) NumPy 설치  
 터미널이나 명령 프롬프트(cmd)에 아래 명령어를 입력해서 설치해요:
 
-```bash
-pip install numpy
-
 ---
 
 ## 4. NumPy에서 꼭 알아야 하는 기본 요소들  
