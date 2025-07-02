@@ -73,14 +73,14 @@ print(a)  # 출력: [1 2 3]
 ---
 
 7. NumPy 공부 로드맵 (W3Schools 기준)
-*NumPy Intro (소개)
-*Creating Arrays (배열 만들기)
-*Array Indexing (배열 접근하기)
-*Array Slicing (배열 자르기)
-*Data Types (데이터 타입)
-*Array Shape & Reshape (배열 모양 다루기)
-*Iterating Arrays (반복문 돌리기)
-*Array Join / Split (합치기 / 나누기)
-*Searching / Sorting / Filtering
-*Math Functions (수학 연산)
-*Random Numbers (난수 생성)
+- NumPy Intro (소개)
+- Creating Arrays (배열 만들기)
+- Array Indexing (배열 접근하기)
+- Array Slicing (배열 자르기)
+- Data Types (데이터 타입)
+- Array Shape & Reshape (배열 모양 다루기)
+- Iterating Arrays (반복문 돌리기)
+- Array Join / Split (합치기 / 나누기)
+- Searching / Sorting / Filtering
+- Math Functions (수학 연산)
+- Random Numbers (난수 생성)
