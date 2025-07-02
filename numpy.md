@@ -46,10 +46,12 @@ import numpy as np
 
 ✅ (2) 배열(Array)
 NumPy의 핵심은 배열(넘파이 배열, numpy array) 이에요.
+```
 import numpy as np
 
 a = np.array([1, 2, 3])
 print(a)  # 출력: [1 2 3]
+```
 
 | 용어    | 설명                       |
 | ----- | ------------------------ |
