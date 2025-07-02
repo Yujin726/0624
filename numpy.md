@@ -59,3 +59,28 @@ print(a)  # 출력: [1 2 3]
 | 2D 배열 | \[\[1, 2], \[3, 4]] — 행렬 |
 | 3D 배열 | 이미지, 영상 등 고차원 데이터        |
 
+---
+
+## 5. NumPy 공부 전에 알면 좋은 기초 지식
+| 개념         | 설명                                  |
+| ---------- | ----------------------------------- |
+| 리스트(List)  | 파이썬의 기본 자료구조. NumPy는 리스트를 확장한 개념이에요 |
+| for문 / 반복문 | 배열을 다루는 데 자주 써요                     |
+| 인덱싱 / 슬라이싱 | 배열의 특정 위치 데이터를 가져올 때 사용             |
+| 수학 기초      | 덧셈, 곱셈, 제곱, 평균 등 기본 수학 개념           |
+| 라이브러리 사용법  | import해서 외부 기능을 가져오는 법              |
+
+---
+
+7. NumPy 공부 로드맵 (W3Schools 기준)
+*NumPy Intro (소개)
+*Creating Arrays (배열 만들기)
+*Array Indexing (배열 접근하기)
+*Array Slicing (배열 자르기)
+*Data Types (데이터 타입)
+*Array Shape & Reshape (배열 모양 다루기)
+*Iterating Arrays (반복문 돌리기)
+*Array Join / Split (합치기 / 나누기)
+*Searching / Sorting / Filtering
+*Math Functions (수학 연산)
+*Random Numbers (난수 생성)
