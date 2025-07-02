@@ -72,7 +72,7 @@ print(a)  # 출력: [1 2 3]
 
 ---
 
-7. NumPy 공부 로드맵 (W3Schools 기준)
+## 6. NumPy 공부 로드맵 (W3Schools 기준)
 - NumPy Intro (소개)
 - Creating Arrays (배열 만들기)
 - Array Indexing (배열 접근하기)
@@ -84,3 +84,65 @@ print(a)  # 출력: [1 2 3]
 - Searching / Sorting / Filtering
 - Math Functions (수학 연산)
 - Random Numbers (난수 생성)
+  
+---
+
+## 7. 자율주행과 NumPy는 어떤 관련이 있나요?
+
+자율주행 시스템은 다양한 센서와 알고리즘을 통해 주변 환경을 인식하고 판단하며 주행을 수행함. 이 과정에서 **수치 데이터를 빠르게 처리하는 능력**이 중요하며, NumPy는 이 역할에 최적화된 도구임.
+
+---
+
+### ✅ (1) 센서 데이터 처리
+
+자율주행차에 사용되는 대표 센서:
+- 라이다(LiDAR)
+- 카메라
+- 레이더
+- GPS
+- IMU(관성 측정 장치)
+
+이 센서들은 모두 **숫자 배열 형태의 데이터**를 생성함. NumPy는 이러한 데이터를 빠르게 계산하고 분석하는 데 사용됨.
+
+```import numpy as np
+
+lidar_data = np.array([12.3, 8.7, 5.1, 20.0])
+obstacles = lidar_data[lidar_data < 10]  # 10m 이내 장애물 필터링
+print(obstacles)
+```
+
+### ✅ (2) 이미지 및 영상 처리
+카메라 센서로부터 입력되는 이미지는 모두 픽셀 값으로 구성된 다차원 배열
+NumPy를 활용하면 이미지 전처리, 색상 분석, 차선 탐지 등의 연산 가능
+
+```import numpy as np
+
+image = np.random.randint(0, 256, (720, 1280, 3))  # RGB 이미지
+gray = np.mean(image, axis=2)  # 흑백 이미지 변환
+```
+
+### ✅ (3) 수학적 연산 (벡터, 행렬)
+자율주행 알고리즘에서 자주 사용되는 수학 연산:
+- 좌표 변환
+- 경로 예측
+- 제어 시스템 설계 (PID, 칼만 필터 등)
+NumPy는 선형대수 기반의 계산을 빠르게 처리하는 데 최적화된 라이브러리임
+
+```A = np.array([[1, 2], [3, 4]])
+B = np.array([[2, 0], [1, 3]])
+result = np.dot(A, B)  # 행렬 곱
+```
+### ✅ (4) 머신러닝, 딥러닝 연동
+딥러닝 기반 자율주행 인공지능 학습 시 NumPy는 필수
+- 데이터 전처리
+- 정규화
+- 배치 처리
+TensorFlow, PyTorch에서도 내부적으로 NumPy와 유사한 연산 환경 사용
+
+### ✅ (5) 실시간 판단 로직
+차선 이탈, 전방 차량 거리 비교 등 실시간 조건 판단에 배열 연산 필수
+NumPy는 빠른 조건 비교, 필터링, 브로드캐스팅 연산 제공
+
+```distances = np.array([15, 9, 30])  # 앞차와 거리
+warnings = distances < 10  # 위험 거리만 True
+```
