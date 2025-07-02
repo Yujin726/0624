@@ -104,7 +104,6 @@ print(a)  # 출력: [1 2 3]
 
 이 센서들은 모두 **숫자 배열 형태의 데이터**를 생성함. NumPy는 이러한 데이터를 빠르게 계산하고 분석하는 데 사용됨.
 ```import numpy as np
-
 lidar_data = np.array([12.3, 8.7, 5.1, 20.0])
 obstacles = lidar_data[lidar_data < 10]  # 10m 이내 장애물 필터링
 print(obstacles)
@@ -114,7 +113,6 @@ print(obstacles)
 카메라 센서로부터 입력되는 이미지는 모두 픽셀 값으로 구성된 다차원 배열
 NumPy를 활용하면 이미지 전처리, 색상 분석, 차선 탐지 등의 연산 가능
 ```import numpy as np
-
 image = np.random.randint(0, 256, (720, 1280, 3))  # RGB 이미지
 gray = np.mean(image, axis=2)  # 흑백 이미지 변환
 ```
