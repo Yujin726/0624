@@ -156,3 +156,70 @@ warnings = distances < 10  # 위험 거리만 True
   * [13. NumPy 배열 정렬](#13-numpy-배열-정렬)
   * [14. NumPy 배열 필터](#14-numpy-배열-필터)
 
+---
+
+## 1. NumPy 시작하기
+(1) NumPy 가져오기
+NumPy가 설치되면 키워드를 추가하여 응용 프로그램에 가져옵니다.
+```import numpy
+```
+이제 NumPy를 가져와서 사용할 준비가 되었습니다.
+(2) NumPy를 np로
+NumPy는 일반적으로 별칭으로 가져옵니다.np
+```import numpy as np
+```
+(3) NumPy 버전 확인
+```import numpy as np
+print(np.__version__)
+```
+---
+
+## 2. NumPy 배열 만들기
+
+---
+
+## 3. NumPy 배열 인덱싱
+
+---
+
+## 4. NumPy 배열 슬라이싱
+
+---
+
+## 5. NumPy 데이터 유형
+
+---
+
+## 6. NumPy 복사 대 보기
+
+---
+
+## 7. NumPy 배열 모양
+
+---
+
+## 8. NumPy 배열 모양 변경
+
+---
+
+## 9. NumPy 배열 반복
+
+---
+
+## 10. NumPy 배열 조인
+
+---
+
+## 11. NumPy 배열 분할
+
+---
+
+## 12. NumPy 배열 검색
+
+---
+
+## 13. NumPy 배열 정렬
+
+---
+
+## 14. NumPy 배열 필터
