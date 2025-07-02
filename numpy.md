@@ -87,17 +87,20 @@ print(a)  # 출력: [1 2 3]
 ---
 
 ## 6. NumPy 공부 로드맵 (W3Schools 기준)
-- NumPy Intro (소개)
-- Creating Arrays (배열 만들기)
-- Array Indexing (배열 접근하기)
-- Array Slicing (배열 자르기)
-- Data Types (데이터 타입)
-- Array Shape & Reshape (배열 모양 다루기)
-- Iterating Arrays (반복문 돌리기)
-- Array Join / Split (합치기 / 나누기)
-- Searching / Sorting / Filtering
-- Math Functions (수학 연산)
-- Random Numbers (난수 생성)
+- [NumPy 시작하기](#1-numpy-시작하기)
+- [NumPy 배열 만들기](#2-numpy-배열-만들기)
+- [NumPy 배열 인덱싱](#3-numpy-배열-인덱싱)
+- [NumPy 배열 슬라이싱](#4-numpy-배열-슬라이싱)
+- [NumPy 데이터 유형](#5-numpy-데이터-유형)
+- [NumPy 복사 대 보기](#6-numpy-복사-대-보기)
+- [NumPy 배열 모양](#7-numpy-배열-모양)
+- [NumPy 배열 모양 변경](#8-numpy-배열-모양-변경)
+- [NumPy 배열 반복](#9-numpy-배열-반복)
+- [NumPy 배열 조인](#10-numpy-배열-조인)
+- [NumPy 배열 분할](#11-numpy-배열-분할)
+- [NumPy 배열 검색](#12-numpy-배열-검색)
+- [NumPy 배열 정렬](#13-numpy-배열-정렬)
+- [NumPy 배열 필터](#14-numpy-배열-필터)
   
 ---
 
