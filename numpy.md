@@ -31,15 +31,26 @@ NumPy는 Numerical Python의 줄임말입니다.
 
 ✅ (2) NumPy 설치  
 터미널이나 명령 프롬프트(cmd)에 아래 명령어를 입력해서 설치해요:
+👉 Google Colab을 쓰면 numpy가 이미 설치되어 있어서 따로 안 해도 돼요!
 
 ---
 
 ## 4. NumPy에서 꼭 알아야 하는 기본 요소들  
 ✅ (1) NumPy 불러오기  
 NumPy를 사용하려면 항상 import 먼저 해요:
+import numpy as np
 
 ```python
 import numpy as np
+ np는 별칭이에요. NumPy 함수들을 쉽게 쓰기 위해 보통 이렇게 불러와요.
+
+✅ (2) 배열(Array)
+NumPy의 핵심은 배열(넘파이 배열, numpy array) 이에요.
+import numpy as np
+
+a = np.array([1, 2, 3])
+print(a)  # 출력: [1 2 3]
+
 | 용어    | 설명                       |
 | ----- | ------------------------ |
 | 1D 배열 | \[1, 2, 3] — 리스트처럼 생김    |
