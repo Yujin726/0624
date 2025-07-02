@@ -39,11 +39,11 @@ NumPy는 Numerical Python의 줄임말입니다.
 ✅ (1) NumPy 불러오기  
 NumPy를 사용하려면 항상 import 먼저 해요:
 import numpy as np
-
-```python
+```python 
 import numpy as np
- np는 별칭이에요. NumPy 함수들을 쉽게 쓰기 위해 보통 이렇게 불러와요.
-
+```
+ 👉 np는 별칭이에요. NumPy 함수들을 쉽게 쓰기 위해 보통 이렇게 불러와요.
+ 
 ✅ (2) 배열(Array)
 NumPy의 핵심은 배열(넘파이 배열, numpy array) 이에요.
 ```
