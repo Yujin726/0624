@@ -114,7 +114,6 @@ print(obstacles)
 ### ✅ (2) 이미지 및 영상 처리
 카메라 센서로부터 입력되는 이미지는 모두 픽셀 값으로 구성된 다차원 배열
 NumPy를 활용하면 이미지 전처리, 색상 분석, 차선 탐지 등의 연산 가능
-
 ```import numpy as np
 
 image = np.random.randint(0, 256, (720, 1280, 3))  # RGB 이미지
@@ -127,7 +126,6 @@ gray = np.mean(image, axis=2)  # 흑백 이미지 변환
 - 경로 예측
 - 제어 시스템 설계 (PID, 칼만 필터 등)
 NumPy는 선형대수 기반의 계산을 빠르게 처리하는 데 최적화된 라이브러리임
-
 ```A = np.array([[1, 2], [3, 4]])
 B = np.array([[2, 0], [1, 3]])
 result = np.dot(A, B)  # 행렬 곱
