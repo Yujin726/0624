@@ -141,8 +141,22 @@ NumPy는 빠른 조건 비교, 필터링, 브로드캐스팅 연산 제공
 warnings = distances < 10  # 위험 거리만 True
 ```
 
-# 📘 NumPy 기초 문법
+# 📘 w3schools NumPy 튜토리얼
+## ✅ NumPy 학습 목차
 
-## 1. NumPy 가져오기
-NumPy가 설치되면 키워드를 추가하여 응용 프로그램에 가져오기
-```import numpy```
+1. [NumPy 홈](#)
+2. [NumPy 소개](#)
+3. [NumPy 시작하기](#)
+4. [NumPy 배열 만들기](#)
+5. [NumPy 배열 인덱싱](#)
+6. [NumPy 배열 슬라이싱](#)
+7. [NumPy 데이터 유형](#)
+8. [NumPy 복사 대 보기](#)
+9. [NumPy 배열 모양](#)
+10. [NumPy 배열 모양 변경](#)
+11. [NumPy 배열 반복](#)
+12. [NumPy 배열 조인](#)
+13. [NumPy 배열 분할](#)
+14. [NumPy 배열 검색](#)
+15. [NumPy 배열 정렬](#)
+16. [NumPy 배열 필터](#)
