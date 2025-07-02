@@ -175,27 +175,167 @@ print(np.__version__)
 ---
 
 ## 2. NumPy 배열 만들기
+(1) NumPy ndarray 객체 만들기
+NumPy의 배열 객체는 .ndarray
+```import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))
+```
+(2) 배열의 차원
+배열의 차원은 배열 깊이(중첩된 배열)의 한 수준
+-> 중첩 배열: 배열을 요소로 포함하는 배열
+
+1) 0차원 배열
+```import numpy as np
+arr = np.array(42)
+print(arr)
+```
+2) 1차원 배열
+```import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+```
+3) 2차원 배열
+```import numpy as np
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr)
+```
+4) 3차원 배열
+```import numpy as np
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+print(arr)
+```
+(3) 차원 수확인
+```import numpy as np
+
+a = np.array(42)
+b = np.array([1, 2, 3, 4, 5])
+c = np.array([[1, 2, 3], [4, 5, 6]])
+d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
+```
+(4) 5차원 배열 및 배열 수 확인
+```import numpy as np
+arr = np.array([1, 2, 3, 4], ndmin=5)
+print(arr)
+print('number of dimensions :', arr.ndim)
+```
 
 ---
 
 ## 3. NumPy 배열 인덱싱
+(1) Access 배열 요소
+-> 배열 요소에 액세스하는 것과 동일
+--> NumPy 배열의 인덱스는 0으로 시작, 이는 첫 번째 요소가 인덱스는 0, 두 번째는 인덱스 1
+1) 배열에서 요소 가져오기
+```import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr[0])
+```
+2) 배열에서 요소 가져오기 및 추가
+```import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr[2] + arr[3])
+```
+(2) 배열에 액세스하기
+import numpy as np
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+print(arr[0, 1, 2])
 
 ---
 
 ## 4. NumPy 배열 슬라이싱
+-> 파이썬에서 슬라이싱은 주어진 한 인덱스에서 다른 주어진 인덱스로 요소를 가져 오는 것을 의미
+(1) 배열 슬라이싱
+```import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+print(arr[1:5])
+```
+(2) 네거티브 슬라이싱
+```import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+print(arr[-3:-1])
+```
+(3) 슬라이싱 단계 결정 step
+1) 다른 모든 요소를 반환
+```import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+print(arr[1:5:2])
+```
+2) 2차원 배열 슬라이싱
+```import numpy as np
+arr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+print(arr[1, 1:4])
+```
 
 ---
 
 ## 5. NumPy 데이터 유형
-
+(1) Python의 데이터 유형
+- strings - 텍스트 데이터를 나타내는 데 사용되며 텍스트는 따옴표 아래에 표시됩니다. 예) "ABCD"
+- integer - 정수를 나타내는 데 사용됩니다. 예) -1, -2, -3
+- float - 실수를 나타내는 데 사용됩니다. 예) 1.2, 42.42
+- boolean - 참 또는 거짓을 나타내는 데 사용됩니다.
+- complex - 복잡함을 나타내는 데 사용됩니다. 숫자. 예) 1.0 + 2.0j, 1.5 + 2.5j
+(2) NumPy의 데이터 유형
+-> 몇 가지 추가 데이터 유형이 있으며 하나로 데이터 유형을 참조
+- i -정수
+- b -부울
+- u - 부호 없는 정수
+- f -뜨다
+- c - 복합 부동 소수점
+- m - 타임델타
+- M - 날짜/시간
+- O -객체
+- S -문자열
+- U - 유니코드 문자열
+- V - 다른 타입에 대한 메모리 청크 수정 ( void )
 ---
 
 ## 6. NumPy 복사 대 보기
+(1) 복사와 보기의 차이점
+복사본은 새 배열이고 보기는 원래 배열의 보기
+(2) 복사
+```
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+x = arr.copy()
+arr[0] = 42
+
+print(arr)
+print(x)
+```
+(3) 보기
+```import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+x = arr.view()
+arr[0] = 42
+
+print(arr)
+print(x)
+```
+(4) 뷰를 만들고, 뷰를 변경하고, 두 배열을 모두 표시
+```import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+x = arr.view()
+x[0] = 31
+
+print(arr)
+print(x)
+```
 
 ---
 
 ## 7. NumPy 배열 모양
-
+(1) 배열의 모양
 ---
 
 ## 8. NumPy 배열 모양 변경
