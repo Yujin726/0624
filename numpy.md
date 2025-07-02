@@ -24,12 +24,23 @@ NumPy는 Numerical Python의 줄임말입니다.
 
 ---
 
-## 3. NumPy 설치와 준비
+## 3. NumPy를 쓰기 위해 필요한 준비물  
+✅ (1) Python 설치  
+파이썬이 먼저 설치되어 있어야 해요.  
+👉 이미 있다면 OK!
 
-### ✔ Python과 pip 필요
+✅ (2) NumPy 설치  
+터미널이나 명령 프롬프트(cmd)에 아래 명령어를 입력해서 설치해요:
 
-NumPy 설치 명령어:
 ```bash
 pip install numpy
 
-add numpy.md
+---
+
+## 4. NumPy에서 꼭 알아야 하는 기본 요소들  
+✅ (1) NumPy 불러오기  
+NumPy를 사용하려면 항상 import 먼저 해요:
+
+```python
+import numpy as np
+
