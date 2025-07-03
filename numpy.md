@@ -363,3 +363,18 @@ print(x)
 ---
 
 ## 14. NumPy 배열 필터
+
+#0703 선생님 링크
+https://docs.google.com/document/d/17Avhfbh0q_K7FgLGbhBY_yvD3xCIdlAfVIRJUAP-lFU/edit?tab=t.0
+필터 코드 코랩에서 해보기
+## 초보자 학습 순서
+1. Creating Arrays → Indexing → Slicing (기본기)
+애니메이션  https://claude.ai/public/artifacts/6accf154-ceb5-470a-b2e2-543df2d49b4a
+2. shape와 reshape 애니메이션
+https://claude.ai/public/artifacts/e9e50b3f-cd6a-4a15-8858-3a84f0b4bb36
+
+## numpy 완전 기초 설명 1/12
+https://claude.ai/public/artifacts/0594c0ae-662a-4c1b-b29f-16dc69aff934
+ 
+## 애니메이션  : array indexing, slicing, 브로드캐스팅, reshape, flatten, 전치행렬
+https://claude.ai/public/artifacts/fdea1f0a-439f-47d8-b954-956f34693a2e
