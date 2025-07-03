@@ -27,6 +27,7 @@
   - [17. 히스토그램\(Histogram\)](#17-히스토그램histogram)
   - [18. 파이차트\(Pie\)](#18-파이차트pie)
 
+참고 연습 코드: https://github.com/Yujin726/0624/blob/main/07_03_Matplotlib_colab_test.ipynb
 
 # 📘 Matplotlib 기초 정리
 
