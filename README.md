@@ -197,7 +197,7 @@ for i in range(3):
 
 ## 5. OpenCV
 
-- [OpenCV Basic](./OpenCV_basic.md)
+- [OpenCV Basic](./OpenCV_Basic.md)
 - [이미지 처리](./image_test.md)
 
   
