@@ -19,8 +19,8 @@
 
 ## 1. YOLOv8이란?
 
-YOLOv8은 **Ultralytics**에서 개발한 객체 탐지 모델입니다.  
-YOLO 시리즈 중 가장 최신 버전으로, 기존 YOLOv5/YOLOv7과 비교해 **더 높은 정확도와 속도, 더 간단한 사용성**을 제공합니다.
+YOLOv8은 **Ultralytics**에서 개발한 객체 탐지 모델
+YOLO 시리즈 중 가장 최신 버전으로, 기존 YOLOv5/YOLOv7과 비교해 **더 높은 정확도와 속도, 더 간단한 사용성**을 제공
 
 - YOLO = You Only Look Once
 - 이미지 전체를 한 번에 보고 객체 탐지를 수행하는 방식
@@ -91,7 +91,7 @@ yolo export model=best.pt format=onnx
 | YOLOv8l | large | 느림 | 더 높음 |
 | YOLOv8x | x-large | 느림 | 최고 정확도 |
 
-모델 선택 시에는 **성능과 속도의 균형**을 고려해야 합니다.
+모델 선택 시에는 **성능과 속도의 균형**을 고려
 
 ---
 
@@ -137,7 +137,7 @@ yolo task=detect mode=train model=yolov8s.pt data=data.yaml epochs=100 imgsz=640
 
 ## ✅ YOLOv8과 OpenCV 연동
 
-YOLOv8은 실시간 카메라 입력과 연동하여 영상 탐지가 가능합니다.
+YOLOv8은 실시간 카메라 입력과 연동하여 영상 탐지 가능
 
 ```python
 import cv2
@@ -163,7 +163,7 @@ cv2.destroyAllWindows()
 
 ## ✅ YOLOv8의 자율주행 적용
 
-YOLOv8은 자율주행에서 **다양한 객체(신호등, 보행자, 차량 등)** 를 실시간으로 탐지하는 데 매우 효과적입니다.
+YOLOv8은 자율주행에서 **다양한 객체(신호등, 보행자, 차량 등)** 를 실시간으로 탐지하는 데 매우 효과적
 
 활용 사례:
 - 신호등 인식 및 색상 분류
