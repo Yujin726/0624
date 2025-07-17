@@ -183,7 +183,7 @@ for box in results[0].boxes:
 
 # 📌 학습 참고 링크
 
-- [YOLOv11 GitHub (예상 주소)](https://github.com/ultralytics/yolov11)
+- [YOLOv11 GitHub](https://github.com/ultralytics/yolov11)
 - [YOLO 논문 정리](https://arxiv.org/)
 - [YOLOv8 공식 문서](https://docs.ultralytics.com/)
 - [실습 영상 예시](https://www.youtube.com/watch?v=6mT3Pe-D5rQ)
