@@ -209,6 +209,7 @@ for i in range(3):
 - [Ultralytics_Basic](./Ultralytics_basic.md)
 - [YOLOv8](./YOLOv8.md)
 - [YOLOv11](./YOLOv11.md)
+- [YOLOv12](./YOLOv12.md)
   
 ## 8. TensorRT vs PyTorch 
 - [PyTorch_Basic](./PyTorch_basic.md)
