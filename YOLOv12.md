@@ -40,7 +40,7 @@ YOLOv12는 **Ultralytics**에서 2025년 2월 공식 발표한 **어텐션 중�
 | `yolo12*-obb` | 회전 바운딩 박스 탐지 (Oriented Detection) |
 | `yolo12*-cls` | 이미지 분류 (Classification) |
 
-⊕ Ultralytics 자체와 추가 커뮤니티 구현에서 모두 지원하며, 학습·검증·추론·내보내기 모드 가능:contentReference[oaicite:7]{index=7}.
+⊕ Ultralytics 자체와 추가 커뮤니티 구현에서 모두 지원하며, 학습·검증·추론·내보내기 모드 가능
 
 ---
 
